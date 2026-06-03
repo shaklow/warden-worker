@@ -142,9 +142,9 @@ namespace_id = "1002"
 simple = { limit = 5, period = 60 }
 
 [[env.dev.d1_databases]]
-binding = "vault1"
-database_name = "vault1-dev"
-database_id = "${D1_DATABASE_ID_DEV}"
+binding = "DB"
+database_name = "warden"
+database_id = "8ad0f81c-ada8-4f06-8c8f-1eff27f99ba9"
 migrations_dir = "migrations"
 
 # R2 bucket for file attachments in dev environment (optional, requires credit card)
